@@ -1,0 +1,24 @@
+version: '3'
+services:
+  java-application:
+    image: kishoren27/my-java-app
+    ports:
+      - 8083:8080
+services:
+  java-application:
+    image: kishoren27/my-java-app
+    ports:
+      - 8083:8080
+  html-application:
+    image: kishoren27/my-html-app
+    ports:
+      - 88:80
+  node-application:
+    image: kishoren27/my-node-app
+    ports:
+      - 9000:9000
+  python-application:
+    image: kishoren27/my-python-app
+    ports:
+      - 8003:8000
+
