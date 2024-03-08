@@ -4,11 +4,6 @@ services:
     image: kishoren27/my-java-app
     ports:
       - 8083:8080
-services:
-  java-application:
-    image: kishoren27/my-java-app
-    ports:
-      - 8083:8080
   html-application:
     image: kishoren27/my-html-app
     ports:
